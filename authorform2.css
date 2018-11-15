@@ -1,0 +1,55 @@
+
+body{
+    background-color: #e1777c;
+}
+
+#everything{
+    margin:auto;
+    width: 100%;
+}
+
+a:link{
+    color: #3051dc;
+}
+
+a:visited{
+    color: #4adc98;
+}
+
+#banner{
+    height: 150px;
+    background: #95e1ba;
+    font-size: 120px;
+    color: #2e4e64;
+    text-align: right;
+
+}
+
+#menuBar{
+    font-size: 30px;
+    float: left;
+    background: #4fff3f;
+    margin-top: 40px;
+    /*vertical-align: center;*/
+}
+
+#menuBar .menuButton{
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    border: 20px solid green;
+    border-radius: 9px;
+    margin 10px;
+}
+#menuBar .menuButton:HOVER {
+    background: red;
+    color: #4ce1ff;
+}
+table{
+    width: 20%;
+    border: 2px solid green;
+
+}
+.innerTable{
+    width: auto;
+}

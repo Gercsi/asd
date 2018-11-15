@@ -1,0 +1,52 @@
+
+body{
+    background-color: #e18f10;
+}
+
+#everything{
+    margin:auto;
+    width: 100%;
+}
+
+a:link{
+    color: #1cc2dc;
+}
+
+a:visited{
+    color: #dcd52a;
+}
+
+#banner{
+    height: 120px;
+    background: #dd10e1;
+    font-size: 60px;
+    color: #154d64;
+
+}
+
+#menuBar{
+    font-size: 20px;
+
+    background: #ff50e6;
+    margin-top: 30px;
+    float: right;
+
+}
+
+#menuBar .menuButton{
+    width: 220px;
+    display: inline-block;
+    text-align: center;
+    border: 20px solid #564a80;
+    border-radius: 9px;
+    margin 10px;
+}
+#menuBar .menuButton:HOVER {
+    background: #e424ff;
+    color: #251cff;
+}
+table{
+    width: 20%;
+    border: 2px solid #800c15;
+
+}
